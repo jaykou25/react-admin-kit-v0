@@ -29,20 +29,20 @@ const doc = parser
 
 export default defineConfig({
   outputPath,
-  favicons: [isBase ? '/react-admin-kit/rak-r15.png' : '/rak-r15.png'],
+  favicons: [isBase ? '/react-admin-kit-v0/rak-r15.png' : '/rak-r15.png'],
   themeConfig: {
-    logo: isBase ? '/react-admin-kit/rak-r15.png' : '/rak-r15.png',
+    logo: isBase ? '/react-admin-kit-v0/rak-r15.png' : '/rak-r15.png',
     name: 'React Admin Kit',
     prefersColor: {
       switch: false,
     },
     socialLinks: {
-      github: 'https://github.com/jaykou25/react-admin-kit',
+      github: 'https://github.com/jaykou25/react-admin-kit-v0',
     },
     apiDoc: doc,
   },
-  publicPath: isBase ? '/react-admin-kit/' : '/',
-  base: isBase ? '/react-admin-kit/' : '/',
+  publicPath: isBase ? '/react-admin-kit-v0/' : '/',
+  base: isBase ? '/react-admin-kit-v0/' : '/',
   ssr: isProd ? {} : false,
   exportStatic: isProd
     ? {
